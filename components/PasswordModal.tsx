@@ -62,7 +62,7 @@ const PasswordModal: React.FC<PasswordModalProps> = ({ isOpen, onClose, onSucces
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
             </svg>
           </div>
-          <h2 className="text-2xl font-black tracking-tight uppercase italic text-white mb-2">Security</h2>
+          <h2 className="text-2xl font-black tracking-tight uppercase italic text-white mb-2">WaitList Pass</h2>
           <p className="text-[9px] tracking-[0.3em] text-blue-500 font-bold uppercase">
             {view === 'LOGIN' ? 'Authorized Access' : 'Register Profile'}
           </p>
@@ -83,7 +83,7 @@ const PasswordModal: React.FC<PasswordModalProps> = ({ isOpen, onClose, onSucces
               type="submit"
               className="w-full bg-white text-black font-bold p-5 rounded-2xl uppercase text-[10px] tracking-widest hover:bg-blue-600 hover:text-white transition-all transform active:scale-95 shadow-xl"
             >
-              Verify Identity
+              Lets Gooo
             </button>
 
             <button 
@@ -91,7 +91,7 @@ const PasswordModal: React.FC<PasswordModalProps> = ({ isOpen, onClose, onSucces
               onClick={() => setView('SIGNUP')}
               className="w-full text-[9px] text-zinc-500 hover:text-white uppercase tracking-widest transition-colors"
             >
-              Request Access Key
+              Request Access Code
             </button>
           </form>
         ) : (
