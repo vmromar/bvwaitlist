@@ -8,7 +8,7 @@ export const PRODUCTS: Product[] = [
     name: 'THE ZERO DEGREE PACK',
     price: '2299.00DH',
     description: 'The definitive 6-piece technical bundle: Core Hoodie, Tactical Cargos, Strike Balaclava, Block-01 Puffer, Raw Graphic Tee, and Thermal Long Sleeve. Engineered for extreme thermal regulation.',
-    imageUrl: 'https://files.catbox.moe/rbtm4r.png',
+    imageUrl: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8UtoYj5p8cTzxmJH5yv0TocEnhuAksufkJTTglaOwbg2SQTmIABo3JtMLEOGQVBBzX5CsgE1SmCKHpFSNzSppHsy6nLis5UhhoXA6N9Gb0tTCQEoI5kZ5Oi6ELWCu17ZJilsaZSag4wUM-9caW3wzyT3glG_n_5msPQjGAXtZHKNiQIrGI_9CU3FGypT3/s1101/WhatsApp%20Image%202026-01-18%20at%2012.20.15%20AM.jpeg',
     category: 'Outerwear'
   }
 ];
