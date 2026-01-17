@@ -32,7 +32,7 @@ const DynamicIsland: React.FC = () => {
                 <div className="absolute -top-1 -right-1 w-3 h-3 bg-green-500 border-2 border-black rounded-full shadow-[0_0_10px_rgba(34,197,94,0.8)]"></div>
               </div>
               <div className="flex flex-col">
-                <span className="text-[10px] font-black uppercase tracking-[0.3em] text-white">Active Content Feed</span>
+                <span className="text-[10px] font-black uppercase tracking-[0.3em] text-white">Your Fav page on insta</span>
                 <span className="text-[9px] text-zinc-500 font-medium tracking-wider mt-0.5">@mr.burv</span>
               </div>
             </div>
@@ -44,7 +44,7 @@ const DynamicIsland: React.FC = () => {
               onClick={(e) => e.stopPropagation()}
               className="bg-white text-black px-4 py-2 rounded-xl text-[9px] font-black uppercase tracking-widest hover:bg-green-500 hover:text-white transition-all active:scale-95"
             >
-              Open Feed
+              Open Now
             </a>
           </div>
         )}
