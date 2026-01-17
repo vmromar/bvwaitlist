@@ -16,10 +16,10 @@ const DynamicIsland: React.FC = () => {
           ${isExpanded ? 'w-[calc(100vw-3rem)] max-w-sm h-24 rounded-[2rem] p-6' : 'w-36 h-9 rounded-full cursor-pointer hover:w-44'}
         `}
       >
-        {!isExpanded ? (
+        {!isExpanded ? 
           <div className="flex items-center gap-3">
             <div className="w-2 h-2 rounded-full bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.6)] animate-pulse"></div>
-            <span className="text-[10px] font-black tracking-[0.2em] text-white uppercase">LIVE TRACK</span>
+            <span className="text-[10px] font-black tracking-[0.2em] text-white uppercase">BURV CONFIDENCE</span>
           </div>
         ) : (
           <div className="w-full flex items-center justify-between gap-4">
