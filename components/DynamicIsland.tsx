@@ -19,7 +19,7 @@ const DynamicIsland: React.FC = () => {
         {!isExpanded ? 
           <div className="flex items-center gap-3">
             <div className="w-2 h-2 rounded-full bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.6)] animate-pulse"></div>
-            <span className="text-[10px] font-black tracking-[0.2em] text-white uppercase">BURV CONFIDENCE</span>
+            <span className="text-[10px] font-black tracking-[0.2em] text-white uppercase">Try BURV</span>
           </div>
         ) : (
           <div className="w-full flex items-center justify-between gap-4">
@@ -32,7 +32,7 @@ const DynamicIsland: React.FC = () => {
                 <div className="absolute -top-1 -right-1 w-3 h-3 bg-green-500 border-2 border-black rounded-full shadow-[0_0_10px_rgba(34,197,94,0.8)]"></div>
               </div>
               <div className="flex flex-col">
-                <span className="text-[10px] font-black uppercase tracking-[0.3em] text-white">Your Fav page on insta</span>
+                <span className="text-[10px] font-black uppercase tracking-[0.3em] text-white">Boost your Mentality with BURV</span>
                 <span className="text-[9px] text-zinc-500 font-medium tracking-wider mt-0.5">@mr.burv</span>
               </div>
             </div>
