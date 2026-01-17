@@ -1,0 +1,7 @@
+{
+  "name": "Copy of BURVLAND: Nothing Stops Us",
+  "description": "High-end brutalist streetwear. Frozen in time, built for the future. Access restricted to authorized personnel.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
