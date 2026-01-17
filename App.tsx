@@ -48,7 +48,7 @@ const App: React.FC = () => {
           <div className="max-w-6xl w-full text-center z-10 pt-20">
             <div className="inline-block px-4 py-1 glass rounded-full mb-8">
               <span className="text-blue-400 font-bold text-[10px] tracking-[0.5em] uppercase">
-                SYSTEM_ENCRYPTED // DROP_26.2
+                Nothing Stops Us
               </span>
             </div>
             
@@ -67,16 +67,16 @@ const App: React.FC = () => {
               <div className="relative group">
                 {/* Floating Item Decorations on Hover */}
                 <div className="hover-item top-0 left-1/2 w-2 h-2 bg-blue-500 rounded-full" style={{ '--translate-target': 'translate(-60px, -110px)' } as any}></div>
-                <div className="hover-item top-0 left-1/2 w-4 h-4 border border-blue-500/50 rotate-45" style={{ '--translate-target': 'translate(90px, -90px)' } as any}></div>
-                <div className="hover-item top-0 left-1/2 text-[9px] font-black text-blue-400 tracking-tighter" style={{ '--translate-target': 'translate(-140px, -30px)' } as any}>ZERO_G</div>
-                <div className="hover-item top-0 left-1/2 w-1 h-12 bg-zinc-800" style={{ '--translate-target': 'translate(120px, 40px)' } as any}></div>
-                <div className="hover-item top-0 left-1/2 w-8 h-[1px] bg-white/20" style={{ '--translate-target': 'translate(-160px, 70px)' } as any}></div>
+                <div className="hover-item top-0 left-1/2 w-4 h-4 border border-blue-500/50 rotate-45" style={{ '--translate-target': 'translate(90px, -90px)' } as any}>burv</div>
+                <div className="hover-item top-0 left-1/2 text-[9px] font-black text-blue-400 tracking-tighter" style={{ '--translate-target': 'translate(-140px, -30px)' } as any}>Nothing Stops Us</div>
+                <div className="hover-item top-0 left-1/2 w-1 h-12 bg-zinc-800" style={{ '--translate-target': 'translate(120px, 40px)' } as any}>burvland</div>
+                <div className="hover-item top-0 left-1/2 w-8 h-[1px] bg-white/20" style={{ '--translate-target': 'translate(-160px, 70px)' } as any}>Nothing Stops Us</div>
                 
                 <button 
                   onClick={() => setIsModalOpen(true)}
                   className="relative z-10 flex items-center gap-4 bg-white text-black px-12 py-6 rounded-2xl font-bold transition-all hover:scale-105 active:scale-95 ios-shadow overflow-hidden group-hover:shadow-[0_0_40px_rgba(255,255,255,0.2)]"
                 >
-                  <span className="uppercase text-[11px] tracking-[0.3em] relative z-10">Enter Access Key</span>
+                  <span className="uppercase text-[11px] tracking-[0.3em] relative z-10">Enter Access Code</span>
                   <div className="group-hover:rotate-12 transition-transform relative z-10 text-blue-600">{LOCK_ICON}</div>
                 </button>
               </div>
@@ -93,7 +93,7 @@ const App: React.FC = () => {
             <div className="text-center md:text-left">
               <h2 className="text-5xl md:text-8xl font-black uppercase tracking-tighter text-white">BURVLAND</h2>
               <div className="flex items-center gap-3 mt-4">
-                <p className="text-[10px] tracking-[0.8em] text-blue-500 uppercase font-bold">TECHNICAL ARCHIVE v26.2</p>
+                <p className="text-[10px] tracking-[0.8em] text-blue-500 uppercase font-bold">Stay tuned we collaborate with</p>
                 <span className="text-zinc-800">|</span>
                 <img 
                   src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Strava_Logo.svg" 
@@ -104,7 +104,7 @@ const App: React.FC = () => {
             </div>
             <div className="hidden md:block text-right">
                <span className="glass px-6 py-3 rounded-full text-[10px] font-bold text-zinc-400 uppercase tracking-widest border border-white/5">
-                 Session_Active
+                 Nothing Stops Us
                </span>
             </div>
           </header>
@@ -121,7 +121,7 @@ const App: React.FC = () => {
                     />
                     <div className="absolute top-10 left-10">
                       <span className="bg-blue-600/20 backdrop-blur-md border border-blue-500/30 px-4 py-1.5 rounded-xl text-[9px] font-black tracking-[0.3em] text-blue-400 uppercase">
-                        Bundle_Alpha
+                        Limited Pack
                       </span>
                     </div>
                   </div>
@@ -150,7 +150,7 @@ const App: React.FC = () => {
                       onClick={() => handleAddToCart(product.name, product.price)}
                       className="w-full bg-white text-black py-6 rounded-[1.5rem] text-[11px] font-black uppercase tracking-[0.4em] hover:bg-blue-600 hover:text-white transition-all transform active:scale-95 shadow-xl"
                     >
-                      Initialize Purchase
+                      PURCHASE THE PACK
                     </button>
                   </div>
                 </div>
@@ -161,12 +161,12 @@ const App: React.FC = () => {
           <footer className="mt-48 pb-16 flex flex-col items-center text-center">
             <h2 className="text-5xl font-black tracking-tighter mb-12 text-white opacity-[0.03]">BURVLAND</h2>
             <div className="flex flex-wrap justify-center gap-8 md:gap-16 text-[10px] font-black uppercase tracking-[0.5em] text-zinc-600 mb-16">
-               <a href="#" className="hover:text-blue-500 transition-colors">Instagram</a>
+               <a href="https://www.instagram.com/burvland/" className="hover:text-blue-500 transition-colors">Instagram</a>
                <a href="#" className="hover:text-blue-400 transition-colors">Discord</a>
-               <a href="#" className="hover:text-blue-400 transition-colors">Secure_Link</a>
-               <a href="#" className="hover:text-blue-400 transition-colors">Neural_Archive</a>
+               <a href="#" className="hover:text-blue-400 transition-colors">Youtube</a>
+               <a href="https://burvwaitlist.vercel.app" className="hover:text-blue-400 transition-colors">Home</a>
             </div>
-            <p className="text-[9px] font-black uppercase tracking-[0.8em] text-zinc-800">&copy; 2026 BURVLAND_IND. LIQUID_OS_V26.2</p>
+            <p className="text-[9px] font-black uppercase tracking-[0.8em] text-zinc-800">&copy; 2026 BURVLAND waitlist ,all right are reserved</p>
           </footer>
         </main>
       )}
