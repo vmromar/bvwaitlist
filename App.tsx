@@ -137,7 +137,7 @@ const App: React.FC = () => {
                       </p>
 
                       <div className="grid grid-cols-2 gap-y-4">
-                        {['Core Hoodie', 'Tactical Cargos', 'Strike Balaclava', 'Block-01 Puffer', 'Raw Tee', 'Thermal LS'].map(item => (
+                        {['BURV AEROFLEECE', 'BURV THERMOTRACK', 'BURV MASKLN', 'BURV NIGHT-RUN', 'BURV LIGHTNEX', 'BURV STORM TRM'].map(item => (
                           <div key={item} className="flex items-center gap-3">
                             <div className="w-1.5 h-1.5 rounded-full bg-blue-600/40"></div>
                             <span className="text-[10px] text-zinc-400 uppercase tracking-[0.2em] font-medium">{item}</span>
