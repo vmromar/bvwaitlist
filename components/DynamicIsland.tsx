@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 
 const DynamicIsland: React.FC = () => {
@@ -21,7 +20,7 @@ const DynamicIsland: React.FC = () => {
             <div className="w-2 h-2 rounded-full bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.6)] animate-pulse"></div>
             <span className="text-[10px] font-black tracking-[0.2em] text-white uppercase">Try BURV</span>
           </div>
-        ) : (
+        : (
           <div className="w-full flex items-center justify-between gap-4">
             <div className="flex items-center gap-4">
               <div className="relative">
